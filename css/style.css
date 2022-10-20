@@ -5,15 +5,38 @@
 }
 
 /* utilities */
+body {
+    background-color: #fff;
+    font-family: 'Fredoka', sans-serif;
+}
 
 .container {
     width: 70%;
     margin: 0 auto;
 }
 
+p, h4, h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+}
+
+h5 {
+    color: #51b2d9;
+}
+
+/* Parte floating e stile immagine */
 .col {
     float: left;
-    width: 33%;
+    width: calc(100%/3);
 }
 
 .row {
@@ -33,5 +56,9 @@
     content: "";
     display: table;
     clear: both;
+    background-color: #000;
+    border: 3px solid grey;
+    margin: 20px;
 }
+
 
