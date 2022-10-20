@@ -36,7 +36,8 @@ h5 {
 /* Parte floating e stile immagine */
 .col {
     float: left;
-    width: calc(100%/3);
+    width: calc(100%/3 - 60px);
+    margin-bottom: 40px;
 }
 
 .row {
@@ -58,7 +59,9 @@ h5 {
     clear: both;
     background-color: #000;
     border: 3px solid grey;
-    margin: 20px;
 }
 
+.spazio-laterale {
+    margin: 0 30px;
+}
 
