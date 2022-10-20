@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utilities */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+    width: 33%;
+}
+
+.row {
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contenuto img {
+    float: left;
+    width: 30%;
+}
+
+.contenuto {
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
