@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -21,6 +21,7 @@ p, h4, h5 {
 }
 
 h3 {
+    font-size: 18px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -33,7 +34,8 @@ h5 {
     color: #51b2d9;
 }
 
-/* Parte floating e stile immagine */
+/* Parte floating e stile cards */
+
 .col {
     float: left;
     width: calc(100%/3 - 60px);
@@ -49,7 +51,8 @@ h5 {
 
 .contenuto img {
     float: left;
-    width: 30%;
+    width: 27%;
+    margin-right: 15px;
 }
 
 .contenuto {
@@ -58,10 +61,14 @@ h5 {
     display: table;
     clear: both;
     background-color: #000;
-    border: 3px solid grey;
+    box-shadow: 0 0 8px #686767;
 }
 
 .spazio-laterale {
     margin: 0 30px;
 }
 
+.testo {
+    line-height: 22px;
+    margin-top: 10px;
+}
